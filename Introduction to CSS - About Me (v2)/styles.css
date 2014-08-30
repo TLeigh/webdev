@@ -20,7 +20,7 @@ body
 
 .about-me h2, h3
 {
-    display: inline-block;
+	display: inline-block;
 }
 
 .about-me li
@@ -30,37 +30,37 @@ body
 
 .about-me .standard-paragraph
 {
-    width: 575px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+	width: 575px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .about-me .flo-name-text
 {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .about-me .flo-image-with-caption
 {
-    margin-left: 20px;
-    height: 220px;
+	margin-left: 20px;
+	height: 220px;
 }
 
 .about-me .flo-caption
 {
-    width: 300px;
-    display: inline-block;
-    vertical-align: middle;
+	width: 300px;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .about-me .flo-image
 {
-    display: inline-block;
-    vertical-align: middle;
-    border: 2px solid orange;
+	display: inline-block;
+	vertical-align: middle;
+	border: 2px solid orange;
 	background-image: url('flo.jpg');
 	background-size: 200px 200px;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	width: 200px;
 	height: 200px;
 	margin-left: 20px;
@@ -77,21 +77,21 @@ body
 
 .about-me .projects .project
 {
-    overflow: auto;
+	overflow: auto;
 }
 
 .about-me .projects .project .name
 {
-    margin-left: 5px;
-    width: 140px;
-    border-right: 1px solid black;
-    display: inline-block;
-    float: left;
+	margin-left: 5px;
+	width: 140px;
+	border-right: 1px solid black;
+	display: inline-block;
+	float: left;
 }
 
 .about-me .projects .project .desc
 {
-    margin-left: 5px;
-    display: inline-block;
-    float: left;
+	margin-left: 5px;
+	display: inline-block;
+	float: left;
 }
