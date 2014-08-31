@@ -70,14 +70,8 @@ body
 {
 	display: table;
 	border: 1px solid black;
-	overflow: auto;
 	margin-bottom: 20px;
 	margin-left: 20px;
-}
-
-.about-me .projects .project
-{
-	overflow: auto;
 }
 
 .about-me .projects .project .name
@@ -86,12 +80,10 @@ body
 	width: 140px;
 	border-right: 1px solid black;
 	display: inline-block;
-	float: left;
 }
 
 .about-me .projects .project .desc
 {
 	margin-left: 5px;
 	display: inline-block;
-	float: left;
 }
