@@ -1,6 +1,4 @@
-document.addEventListener("load", Load());
-
-function Load()
+window.onload = function Load()
 {
     var grid = document.getElementsByClassName("grid")[0];
 

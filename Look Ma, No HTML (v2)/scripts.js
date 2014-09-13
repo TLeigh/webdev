@@ -2,9 +2,7 @@ var isPainting = false;
 function StartPainting() { isPainting = true; }
 function StopPainting() { isPainting = false; }
 
-document.addEventListener("load", Load());
-
-function Load()
+window.onload = function Load()
 {
     var grid = document.getElementsByClassName("grid")[0];
     grid.addEventListener("mousedown", StartPainting);
