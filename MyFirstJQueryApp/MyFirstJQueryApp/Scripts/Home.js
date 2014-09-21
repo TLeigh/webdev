@@ -40,7 +40,7 @@ Home.WireAnimateEvent = function ()
     {
         if (Home.AnimationStatus == "left")
         {
-            $(this).animate({ left: '310px', height: '+=80px', width: '+=80px' }, 800);
+            $(this).animate( { left: '310px', height: '+=80px', width: '+=80px' }, 800);
             Home.AnimationStatus = "right";
         }
         else
