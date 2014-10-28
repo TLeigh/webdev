@@ -161,39 +161,24 @@ namespace FinalProject.Controllers
         [HttpGet]
         public JsonResult Login(LoginRequestModel model)
         {
-            bool invalidUsername = false;
-            bool invalidPassword = false;
-
-            string usernameResponse = "Good";
-            string passwordResponse = "Good";
-
-            if (string.IsNullOrEmpty(model.Username) || model.Username.Length < 6)
-            {
-                usernameResponse = "Invalid";
-                invalidUsername = true;
-            }
-
-            if (string.IsNullOrEmpty(model.Password) || model.Password.Length < 6)
-            {
-                passwordResponse = "Invalid";
-                invalidPassword = true;
-            }
-
-            string passwordOnAccount = getAccountValue(model.Username, "password").ToLower();
-            
-            if (!model.Password.ToLower().Equals(passwordOnAccount))
-            {
-                passwordResponse = "Wrong";
-                invalidPassword = true;
-            }
-
-            if (invalidUsername || invalidPassword)
+            if (string.IsNullOrEmpty(model.Username) || !accountExists(model.Username))
             {
                 return new JsonResult().SerializeObject(new
                 {
                     Message = "Error",
-                    Username = usernameResponse,
-                    Password = passwordResponse
+                    Username = "Invalid"
+                });
+            }
+
+            string passwordOnAccount = getAccountValue(model.Username, "password").ToLower();
+
+            if (!model.Password.ToLower().Equals(passwordOnAccount))
+            {
+                return new JsonResult().SerializeObject(new
+                {
+                    Message = "Error",
+                    Username = "Found",
+                    Password = "Wrong"
                 });
             }
 

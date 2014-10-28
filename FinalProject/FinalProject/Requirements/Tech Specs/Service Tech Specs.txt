@@ -61,8 +61,7 @@
  +------------------+---------------------------------------------------------+
  | Errors                                                                     |
  |                                                                            |
- |     "Username" : "Invalid"   (Must be at least 6 characters)               |
- |     "Password" : "Invalid"   (Must be at least 6 characters)               |
+ |     "Username" : "Invalid"   (Must be an existing account username)        |
  |     "Password" : "Wrong"     (Wrong password for existing account)         |
  |                                                                            |
  +----------------------------------------------------------------------------+
