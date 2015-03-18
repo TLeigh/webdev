@@ -1,0 +1,38 @@
+
+ ITCS-1105 Course Project
+ Due Date: May 6th by Midnight
+
+ Description
+
+ You have been asked by Lakeland Community College to begin work on the front-end of a
+ new web site that will be used by Student Services to help students keep track of their
+ information. Another developer whom you do not know has already completed work on some
+ services on the back-end which you will be utilizing. The requirements for the new site
+ are still in a very early state, and so all LCC IT needs you to do at this point is get
+ the basics of a Login Screen and an Account Information Screen in place. Since end-state
+ requirements are not fully known, the immediate goal is to establish a foundation for the
+ system architecture, and get some good patterns and technical practices in place for the
+ coming work in the future. As such, the quality, readability and reusability of your code
+ is of the utmost importance; even more important than the details of the functionality.
+
+ Instructions
+
+ 1.) Carefully examine the Mockup Images provided by the UX Designer.
+ 2.) Carefully read the Design Document which was provided for you by the Project Architect.
+ 3.) Carefully read the Technical Specifications provided by the Back-End Services Developer.
+ 4.) Modify the "FinalProject" solution to develop the new Front-End according to requirements.
+     *Important Note -- You only have to modify 3 files: Index.html, Home.css, Home.js.
+
+ Grading
+
+ Functionality of Interaction with Login & New Account Services   [15 pts.]
+ Functionality of Interaction with Account Information Services   [15 pts.]
+ Matches UX Requirements for Login Screen Desktop                 [10 pts.]
+ Matches UX Requirements for Login Screen iPhone                  [10 pts.]
+ Matches UX Requirements for Account Info Screen Desktop          [10 pts.]
+ Matches UX Requirements for Account Info Screen iPhone           [10 pts.]
+ Demonstrates Quality HTML, Adhere to Design Document             [10 pts.]
+ Demonstrates Quality CSS, Adhere to Design Document              [10 pts.]
+ Demonstrates Quality JavaScript, Adhere to Design Document       [10 pts.]
+
+ Total                                                            [100 pts.]

@@ -1,0 +1,42 @@
+Student Services Website Front-End Design Document
+
+Global Requirements
+  •Single Page Website.
+  •Contains a Header Area.
+  •Contains a Content Area.
+  •Contains a Footer Area.
+  •All account management will be handled on the back-end.
+  •All input validation will be handled on the back-end.
+  •All error message treatment will be implemented on the front-end.
+  •Any server calls should be done using JQuery and AJAX.
+  •All responsive design should use width-based media queries.
+
+Login / Create Account
+  •Login section allows a user who already has an account to log in.
+  •Successful login will take you to the Account Information view.
+  •Unsuccessful login will display error messages on the screen.
+  •Create Account section will allow a user to create a new account.
+  •They must provide a unique username that is at least 6 characters.
+  •They must provide a password that is at least 6 characters.
+  •They must provide an e-mail address that contains an "@" character.
+  •They must verify their e-mail address by typing it in again.
+  •Successful account creation will take you to the Account Information view.
+  •Unsuccessful account creation will display error messages on the screen.
+
+Account Information
+  •Account Information Section will list every value in the user's account.
+  •Each item should be updatable except for the Username.
+  •No field validation required when updating values.
+  •Add Element section should allow the user to add a new name/value pair.
+  •User will provide a name and a value for the new account element.
+  •"Username" will not be allowed as the Element Name.
+  •An error message will be displayed if the user tries to add "Username".
+
+Global Architecture
+  •Do not use any HTML table elements.
+  •Keep the HTML content layer free from obtrusive markup or scripts.
+  •Keep the HTML content layer organized and precisely scoped.
+  •Keep the CSS layer organized, using fully qualified class names.
+  •Keep the CSS layer flexible, using appropriate selectors as necessary.
+  •In JavaScript, encapsulate reusable code within functions.
+  •In JavaScript, keep objects and functions small and focused.
